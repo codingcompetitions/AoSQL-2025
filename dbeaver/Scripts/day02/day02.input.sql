@@ -1,0 +1,20 @@
+-- (c) Manuel Alejandro Gómez Nicasio <az-dev@outlook.com>
+--
+-- For the full copyright and license information, please view the LICENSE
+-- file that was distributed with this source code.
+
+-- (sh) ./db.sh
+-- (psql) \i dbeaver/Scripts/day02/day02.input.sql
+-- (psql) \i dbeaver/Scripts/day02/day02.sql
+
+DROP DATABASE IF EXISTS aosql_2025_day02;
+
+CREATE DATABASE aosql_2025_day02;
+
+\connect aosql_2025_day02 postgres
+
+GRANT ALL ON SCHEMA public TO aosql_2025;
+
+\connect aosql_2025_day02 aosql_2025
+
+\i ../aosql-data/2025/input/day02-01.sql

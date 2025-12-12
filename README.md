@@ -2,9 +2,10 @@
 
 [★ Advent of SQL 2025](https://databaseschool.com/series/advent-of-sql) is solved using [PostgreSQL](https://www.postgresql.org/).
 
-| Star | Day |
-|------|-----|
-|      |     |
+| Star |                                 Day                                  |
+|------|----------------------------------------------------------------------|
+| ⭐    | [Day 01](https://databaseschool.com/series/advent-of-sql/videos/309) |
+| ⭐    | [Day 02](https://databaseschool.com/series/advent-of-sql/videos/313) |
 
 ## Init
 
