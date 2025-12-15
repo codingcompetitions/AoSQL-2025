@@ -10,8 +10,8 @@
 			"configuration": {
 				"host": "localhost",
 				"port": "5432",
-				"database": "aosql_2025_day02",
-				"url": "jdbc:postgresql://localhost:5432/aosql_2025_day02",
+				"database": "aosql_2025",
+				"url": "jdbc:postgresql://localhost:5432/aosql_2025",
 				"configurationType": "MANUAL",
 				"home": "/usr/lib/postgresql/15",
 				"type": "dev",
